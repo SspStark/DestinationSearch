@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1140px;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+.search-input-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding: 12px;
+}
+.search-input {
+  color: #0f172a;
+  background-color: #f1f5f9;
+  font-family: 'Open Sans';
+  border: none;
+  outline: none;
+}
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+.list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 40px;
+}
